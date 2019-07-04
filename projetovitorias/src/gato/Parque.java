@@ -1,14 +1,16 @@
 
 package gato;
+
+
 public class Parque {
-    public static int main (string[] args, gato neu){
-        gato puppy= neu gato ("José");
+    public static int main (string [] args ){
+        cat puppy= new cat ("José");
         puppy.nome="Josézinho";
-        puppy.mia();
-        gato femia= new gato ("luiza");
-        gato.idade=3;
-        gato.mia();
-        puppy.mae = femia;
+        puppy.miar();
+        cat gata= new cat ("luiza");
+        gata.idade=3; boolean femea =true;
+        gata.miar();
+        puppy.mae=gata;
  return 0;
-}
+    }
 }
